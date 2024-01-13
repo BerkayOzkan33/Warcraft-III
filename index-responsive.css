@@ -1,0 +1,154 @@
+@media screen and (max-width:1008px) {
+    .header_text h1 {
+        font-size: 25px;
+    }
+
+    .container_box_title h4 {
+        font-size: 18px;
+    }
+
+    .container_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px;
+        width: calc(80% - 10px);
+    }
+
+    .footer_text h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header_content {
+        position: relative;
+    }
+
+    .header_links {
+        display: none;
+    }
+
+    .header_links.show {
+        display: flex;
+    }
+
+    .header_links ul {
+        position: absolute;
+        top: 30px;
+        right: 15px;
+    }
+
+    .header_links ul li {
+        display: block;
+    }
+
+    .menu_bar {
+        position: absolute;
+        top: 5px;
+        right: 80px;
+        display: block;
+    }
+
+    .header_content .header_text {
+        position: absolute;
+        left: 50px;
+    }
+
+    .header_links ul li a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer_links ul li a img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 713px) {
+
+    .header_text h1 {
+        font-size: 22px;
+    }
+
+    .container_box_title h4 {
+        font-size: 15px;
+    }
+
+    .container_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: calc(80% - 10px);
+    }
+
+    .footer_text h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .header_text h1 {
+        font-size: 17px;
+    }
+
+    .container_box_title h4 {
+        font-size: 12px;
+    }
+
+    .container_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: calc(80% - 10px);
+    }
+
+    .footer_text h1 {
+        font-size: 17px;
+    }
+
+    .footer_links ul li a img {
+        width: 32px;
+        height: 32px;
+
+    }
+}
+
+@media screen and (max-width: 455px) {
+
+    .header_text h1 {
+        font-size: 15px;
+    }
+
+    .container_box_title h4 {
+        font-size: 10px;
+    }
+
+    .container_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: calc(80% - 10px);
+    }
+
+    .footer_text h1 {
+        font-size: 15px;
+    }
+
+    .footer_content .footer_links ul li {
+        display: block;
+        margin: 2px;
+    }
+
+    .footer_links ul li a img {
+        width: 25px;
+        height: 25px;
+    }
+}
